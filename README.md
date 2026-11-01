@@ -63,8 +63,10 @@ python /tmp/new_line/install.py --target . --start
 | 파일 | 담는 것 |
 |---|---|
 | data_map | 파일·연결 키·리스크 후보·예상 vs 실제 |
-| interview | 질문과 답 원문 (Q-ID) |
-| decisions | 결정과 이유 (D-ID) |
+| stakeholders | 최종 사용자·요청자·결정권자, 원하는 것과 충돌 |
+| rules | 규칙 한 줄 → 출처(D) → 테스트 이름 (불변식 포함) |
+| interview | 질문 카드(선택지 + 내 추천), 질문과 답 원문 (Q-ID) |
+| decisions | 결정 한 줄(✅🟡❓), 이유, 예상 노트(예상 vs 실제) |
 | problem | 성공 기준·만들 것·만들지 않을 것·제약·Unknown |
 | requirements | REQ-ID·우선순위·합격 문장·검사 명령 |
 | skeleton | 6단계별 입력·출력·리스크·결정 |
