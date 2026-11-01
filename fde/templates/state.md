@@ -1,0 +1,15 @@
+STATE: DISCOVERY
+작업 폴더·Git 루트·AGENTS 로드 확인:
+출구조건:
+champion 통과율:
+마지막 commit:
+마지막 SELFCHECK (시각·빈칸):
+막힌 것:
+다음 행동:
+GATE1 합의:
+GATE2 E2E v0:
+GATE3 fresh run:
+GATE4 전달 확인:
+합의에서 벗어났나:
+증거 없는 체크가 있나:
+너무 순조롭지 않았나(검증 누락):
