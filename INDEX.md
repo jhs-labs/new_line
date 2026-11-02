@@ -8,6 +8,8 @@
 | 이해관계자 지도 (최종 사용자·결정권자·충돌) | [stakeholders](fde/templates/stakeholders.md) |
 | 규칙 장부 (규칙 → D → 테스트) | [rules](fde/templates/rules.md) |
 | 데이터 지도 틀·예시 | [data_map](fde/templates/data_map.md), [예시](fde/examples/data_map_example.md) |
+| 분석 기록 (한 건 10줄, 한 파일) | [analysis](fde/templates/analysis.md) |
+| 단계별 끝 조건 (SCAFFOLD~SUBMIT) | [QUICKCARD](docs/QUICKCARD.md) |
 | 매 프롬프트·체크포인트 결과·방향·이해·인계 점검 | [docs/SELFCHECK.md](docs/SELFCHECK.md) |
 | Git 루트 확인·첫 commit·REQ commit·되돌리기 | [docs/GIT.md](docs/GIT.md) |
 | 데이터 처리 설계 | [docs/METHOD.md](docs/METHOD.md), [skeleton](fde/templates/skeleton.md) |
