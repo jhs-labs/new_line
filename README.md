@@ -40,6 +40,7 @@ python /tmp/new_line/install.py --target . --start
 | 처음부터 끝까지 이어지는 13단계 프롬프트 | [docs/PROMPT_FLOW.md](docs/PROMPT_FLOW.md) |
 | 전체 순서 한 장 | [docs/QUICKCARD.md](docs/QUICKCARD.md) |
 | 데이터 지도 양식·예시 | [fde/templates/data_map.md](fde/templates/data_map.md), [예시](fde/examples/data_map_example.md) |
+| 전달 직전 되돌아보기 양식 | [fde/templates/review.md](fde/templates/review.md) |
 | 단계별 지시 모음 | [docs/STAGE_PROMPTS.md](docs/STAGE_PROMPTS.md) |
 | 매 프롬프트·체크포인트 점검 | [docs/SELFCHECK.md](docs/SELFCHECK.md) |
 | 데이터 처리 6단계 설계 | [docs/METHOD.md](docs/METHOD.md) |

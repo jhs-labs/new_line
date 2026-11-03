@@ -20,6 +20,7 @@
 | 합격 기준·우선순위 | [requirements](fde/templates/requirements.md) |
 | 선택 이유·O/X·내 예측 | [decisions](fde/templates/decisions.md) |
 | 현재 위치·재개 | [state](fde/templates/state.md), [handoff](fde/templates/handoff.md) |
+| 전달 직전 되돌아보기 (예상 vs 실제·약점 3개·선택지 비교) | [review](fde/templates/review.md) |
 | 파일 읽기 | [io.py](fde/reusable/io.py) |
 | 타입·필수값·범위 검증 | [validate.py](fde/reusable/validate.py) |
 | 필터·정렬·명시적 집계 | [aggregate.py](fde/reusable/aggregate.py) |
