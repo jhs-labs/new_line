@@ -28,6 +28,7 @@
 - 웹 서버는 프로젝트 README가 정한 포트를 쓴다. 정하지 않았으면 0.0.0.0:3000(흔한 개발 서버 포트)에 띄우고 `--port`로 바꿀 수 있게 한다. 띄운 뒤 그 포트로 HTTP 응답을 확인한다.
 - 서버 시각은 UTC일 수 있다. 판정 기준 시각에 `now()`를 쓰지 않고 합의한 D(데이터 마지막 시각 등)를 쓰며, 기록의 시각에는 시간대를 붙인다.
 - 과정 기록(problem·interview·decisions·requirements·skeleton·state·handoff)은 fde/work에만 둔다. docs/ 등에 같은 종류의 기록을 따로 만들지 않고, 프로젝트가 지정한 전달 문서는 fde/work를 근거로 쓴다.
+- README가 인수인계 문서를 요구하면 fde/work/handoff로 끝내지 않는다. 루트에 `HANDOVER.md`를 따로 만들고(처음 보는 사람용 1페이지: 무엇을·왜·실행법·핵심 결정 D·한계·다음 할 일), 맨 위에 근거 경로(fde/work/handoff·decisions·requirements)를 적는다.
 - D-ID는 `D1, D2…` 형식으로 쓴다. 정책이 걸린 구현 요청에 D-ID가 없으면 적용할 D를 먼저 확인하고, 해당 D가 없으면 구현하지 말고 질문 후보로 돌린다.
 - REQ 검사가 통과하면 같은 응답에서 `git add <파일>`과 `REQ-xxx: METHOD ④ 요약 (Dn)` commit 명령을 제안하고 state의 마지막 commit을 갱신한다. Git 신원·전역 설정은 바꾸지 않는다.
 - 체크포인트(45·80·115·140·155·170분)마다 `python fde/kit/status.py --intent` 결과와 fde/docs/SELFCHECK.md의 해당 체크리스트로 빈칸을 보고한다.
